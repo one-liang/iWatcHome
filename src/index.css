@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.mouseIcon circle {
+  animation: moveAndFade 1.5s ease-in-out infinite;
+}
+
+@keyframes moveAndFade {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(.3rem);
+    opacity: 1;
+  }
+}

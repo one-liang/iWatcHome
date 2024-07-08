@@ -1,18 +1,35 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./index.css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;family=Noto+Sans+TC:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;family=Noto+Sans+TC:wght@400;500;700&amp;display=swap"
+    rel="stylesheet" />
   <script src="./index.js" defer="defer"></script>
-  <title>index</title>
+  <title>iWatcHome</title>
 </head>
+
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
+  <div class="iwh-relative iwh-h-dvh">
+    <video loop="loop" muted="muted" autoplay="autoplay" class="iwh-w-full iwh-h-full iwh-object-cover">
+      <source src="./images/video/J12.mp4" type="video/mp4">
+    </video>
+    <div class="iwh-absolute iwh-bottom-12 iwh-left-1/2 -iwh-translate-x-1/2">
+      <svg class="iwh-stroke-white iwh-fill-current iwh-w-5 mouseIcon" aria-hidden="true" focusable="false" viewBox="0 0 13 18" fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg">
+        <rect class="iwh-stroke-white iwh-fill-transparent" x="1.15918" y="0.834351" width="11.1133" height="16.6184" rx="5.55664" stroke="currentColor"></rect>
+        <circle cx="6.71509" cy="5.14941" r="0.883057" fill="black"></circle>
+      </svg>
+    </div>
+  </div>
+  <h1 class="iwh-font-bold iwh-underline iwh-text-4xl">
+    思源黑體 Noto Sans TC
   </h1>
 </body>
+
 </html>
