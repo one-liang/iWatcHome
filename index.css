@@ -446,6 +446,26 @@ video {
   display: none;
 }
 
+.mouseIcon circle {
+  animation: moveAndFade 1.5s ease-in-out infinite;
+}
+
+@keyframes moveAndFade {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(.3rem);
+    opacity: 1;
+  }
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -562,12 +582,28 @@ video {
   position: relative;
 }
 
-.iwh-bottom-12 {
-  bottom: 3rem;
+.iwh-bottom-8 {
+  bottom: 2rem;
 }
 
 .iwh-left-1\/2 {
   left: 50%;
+}
+
+.iwh-mt-3 {
+  margin-top: 0.75rem;
+}
+
+.iwh-block {
+  display: block;
+}
+
+.iwh-flex {
+  display: flex;
+}
+
+.iwh-grid {
+  display: grid;
 }
 
 .iwh-h-dvh {
@@ -576,6 +612,10 @@ video {
 
 .iwh-h-full {
   height: 100%;
+}
+
+.iwh-max-h-\[120px\] {
+  max-height: 120px;
 }
 
 .iwh-w-5 {
@@ -589,6 +629,37 @@ video {
 .-iwh-translate-x-1\/2 {
   --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.iwh-grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.iwh-flex-col {
+  flex-direction: column;
+}
+
+.iwh-gap-x-4 {
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+
+.iwh-gap-y-6 {
+  row-gap: 1.5rem;
+}
+
+.iwh-overflow-hidden {
+  overflow: hidden;
+}
+
+.iwh-bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.iwh-bg-neutral-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(82 82 82 / var(--tw-bg-opacity));
 }
 
 .iwh-fill-current {
@@ -608,36 +679,151 @@ video {
      object-fit: cover;
 }
 
-.iwh-text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.813rem;
+.iwh-px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
-.iwh-font-bold {
-  font-weight: 700;
+.iwh-px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
-.iwh-underline {
+.iwh-py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.iwh-py-\[6px\] {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.iwh-text-left {
+  text-align: left;
+}
+
+.iwh-text-\[13px\] {
+  font-size: 13px;
+}
+
+.iwh-text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.iwh-font-medium {
+  font-weight: 500;
+}
+
+.iwh-leading-5 {
+  line-height: 1.25rem;
+}
+
+.iwh-text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.iwh-duration-1000 {
+  transition-duration: 1000ms;
+}
+
+.iwh-ease-zoom {
+  transition-timing-function: cubic-bezier(0.18, 0.6, 0.33, 0.76);
+}
+
+.display-box {
+  display: -webkit-box;
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-2 {
+  -webkit-line-clamp: 2;
+}
+
+.iwh-group:hover .group-hover\:iwh-scale-110 {
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.iwh-group:hover .group-hover\:iwh-underline {
   text-decoration-line: underline;
 }
 
-.mouseIcon circle {
-  animation: moveAndFade 1.5s ease-in-out infinite;
+.iwh-group:hover .group-hover\:underline-under {
+  text-underline-position: under;
 }
 
-@keyframes moveAndFade {
-  0% {
-    transform: translateY(0);
-    opacity: 0;
+@media (min-width: 768px) {
+  .md\:iwh-mt-4 {
+    margin-top: 1rem;
   }
 
-  50% {
-    opacity: 1;
+  .md\:iwh-inline-block {
+    display: inline-block;
   }
 
-  100% {
-    transform: translateY(.3rem);
-    opacity: 1;
+  .md\:iwh-max-h-\[195px\] {
+    max-height: 195px;
+  }
+
+  .md\:iwh-gap-8 {
+    gap: 2rem;
+  }
+
+  .md\:iwh-px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .md\:iwh-text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:iwh-max-h-\[155px\] {
+    max-height: 155px;
+  }
+
+  .lg\:iwh-grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:iwh-px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .lg\:iwh-pb-\[72px\] {
+    padding-bottom: 72px;
+  }
+
+  .lg\:iwh-pt-\[100px\] {
+    padding-top: 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .xl\:iwh-bottom-12 {
+    bottom: 3rem;
+  }
+
+  .xl\:iwh-max-h-\[200px\] {
+    max-height: 200px;
+  }
+
+  .xl\:iwh-px-\[120px\] {
+    padding-left: 120px;
+    padding-right: 120px;
   }
 }
 
