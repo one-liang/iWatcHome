@@ -17,7 +17,7 @@
 <body>
   <!-- section 1 -->
   <section class="iwh-relative iwh-h-dvh">
-    <video loop="loop" muted="muted" autoplay="autoplay" class="iwh-w-full iwh-h-full iwh-object-cover">
+    <video class="iwh-w-full iwh-h-full iwh-object-cover" loop="loop" muted="muted" autoplay="autoplay">
       <source src="./images/video/J12.mp4" type="video/mp4">
     </video>
     <div class="iwh-absolute xl:iwh-bottom-12 iwh-bottom-8 iwh-left-1/2 -iwh-translate-x-1/2">
@@ -150,6 +150,24 @@
           class="iwh-object-cover iwh-object-center iwh-w-full iwh-h-full iwh-duration-1000 group-hover:iwh-scale-110 iwh-ease-zoom"
           src="./images/04/1.jpg" alt="">
       </picture>
+    </div>
+  </section>
+
+  <!-- section 4 -->
+  <section class="iwh-relative xl:iwh-h-[795px] lg:iwh-h-[566px] md:iwh-h-[424px] iwh-h-[245px] iwh-group">
+    <video id="video2" class="iwh-w-full iwh-h-full iwh-object-cover">
+      <source src="./images/video/j12-automaton.mp4" type="video/mp4">
+    </video>
+    <div class="iwh-absolute iwh-left-1/2 iwh-top-1/2 -iwh-translate-x-1/2 -iwh-translate-y-1/2">
+      <button id="playVideoBtn"
+        class="iwh-w-[72px] iwh-h-[72px] iwh-opacity-0 iwh-duration-200 group-hover:iwh-opacity-100" type="button">
+        <img src="./images/icons/player.svg" alt="">
+      </button>
+      <button id="pauseVideoBtn"
+        class="iwh-w-[72px] iwh-h-[72px] iwh-hidden iwh-opacity-0 iwh-duration-200 group-hover:iwh-opacity-100"
+        type="button">
+        <img src="./images/icons/pause.svg" alt="">
+      </button>
     </div>
   </section>
 </body>
