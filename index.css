@@ -934,6 +934,21 @@ video {
   -webkit-line-clamp: 2;
 }
 
+[data-aos="new-animation"] {
+  opacity: 0;
+  transition-property: transform, opacity;
+  &.aos-animate {
+    opacity: 1;
+  }
+  @media screen and (min-width: 768px) {
+    transform: translateX(100px);
+
+    &.aos-animate {
+      transform: translateX(0);
+    }
+  }
+}
+
 .before\:iwh-absolute::before {
   content: var(--tw-content);
   position: absolute;
@@ -986,6 +1001,13 @@ video {
 
 .iwh-group:hover .group-hover\:underline-under {
   text-underline-position: under;
+}
+
+@media (min-width: 640px) {
+  .sm\:iwh-text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 
 @media (min-width: 768px) {
