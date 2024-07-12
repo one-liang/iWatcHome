@@ -14,4 +14,10 @@ document.addEventListener("DOMContentLoaded", function () {
     playVideoBtn.classList.add("iwh-hidden");
     pauseVideoBtn.classList.remove("iwh-hidden");
   });
+
+  pauseVideoBtn.addEventListener("click", () => {
+    video2.pause();
+    playVideoBtn.classList.remove("iwh-hidden");
+    pauseVideoBtn.classList.add("iwh-hidden");
+  });
 });
