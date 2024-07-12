@@ -1021,6 +1021,10 @@ video {
     display: none;
   }
 
+  .md\:iwh-h-dvh {
+    height: 100dvh;
+  }
+
   .md\:iwh-max-h-\[190px\] {
     max-height: 190px;
   }
