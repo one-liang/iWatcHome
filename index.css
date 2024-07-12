@@ -631,6 +631,10 @@ video {
   display: none;
 }
 
+.iwh-aspect-\[375\/249\] {
+  aspect-ratio: 375/249;
+}
+
 .iwh-h-\[72px\] {
   height: 72px;
 }
@@ -892,6 +896,14 @@ video {
   opacity: 0;
 }
 
+.iwh-opacity-100 {
+  opacity: 1;
+}
+
+.\!iwh-opacity-0 {
+  opacity: 0 !important;
+}
+
 .iwh-duration-1000 {
   transition-duration: 1000ms;
 }
@@ -1001,6 +1013,10 @@ video {
     display: none;
   }
 
+  .md\:iwh-aspect-auto {
+    aspect-ratio: auto;
+  }
+
   .md\:iwh-h-dvh {
     height: 100dvh;
   }
@@ -1076,6 +1092,10 @@ video {
   .md\:iwh-text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .md\:iwh-opacity-0 {
+    opacity: 0;
   }
 }
 

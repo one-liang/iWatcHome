@@ -158,13 +158,14 @@
 
   <!-- section 5 -->
   <section class="iwh-relative md:iwh-h-dvh iwh-group">
-    <video id="video2" class="iwh-w-full iwh-h-full iwh-object-cover" muted="" loop="" playsinline=""
-      webkit-playsinline="" preload="auto" poster="./images/02/1.jpg">
+    <video id="video2" class="iwh-w-full iwh-h-full iwh-object-cover md:iwh-aspect-auto iwh-aspect-[375/249]" muted=""
+      loop="" playsinline="" webkit-playsinline="" preload="auto" poster="./images/02/1.jpg">
       <source src="./images/video/j12-automaton.mp4" type="video/mp4">
     </video>
     <div class="iwh-absolute iwh-left-1/2 iwh-top-1/2 -iwh-translate-x-1/2 -iwh-translate-y-1/2">
       <button id="playVideoBtn"
-        class="iwh-w-[72px] iwh-h-[72px] iwh-opacity-0 iwh-duration-200 group-hover:iwh-opacity-100" type="button">
+        class="iwh-w-[72px] iwh-h-[72px] md:iwh-opacity-0 iwh-opacity-100 iwh-duration-200 group-hover:iwh-opacity-100"
+        type="button">
         <img src="./images/icons/player.svg" alt="">
       </button>
       <button id="pauseVideoBtn"
