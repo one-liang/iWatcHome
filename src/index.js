@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
+  AOS.init();
+
   const video1 = document.getElementById("video1");
   if (video1) {
     video1.muted = true;

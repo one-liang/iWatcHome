@@ -4,12 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./index.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;family=Noto+Sans+TC:wght@400;500;700&amp;display=swap"
     rel="stylesheet" />
+  <link href="./plugins/aos.css" rel="stylesheet">
+  <link href="./index.css" rel="stylesheet">
+  <script src="./plugins/aos.js"></script>
   <script src="./index.js" defer="defer"></script>
   <title>iWatcHome</title>
 </head>
@@ -34,7 +36,8 @@
   <section
     class="iwh-bg-black xl:iwh-px-[120px] lg:iwh-pt-[100px] lg:iwh-pb-[72px] lg:iwh-px-8 md:iwh-px-24 iwh-px-6 iwh-py-12">
     <div class="iwh-grid lg:iwh-grid-cols-4 iwh-grid-cols-2 md:iwh-gap-8 iwh-gap-x-4 iwh-gap-y-6">
-      <button id="scrollBtn1" class="iwh-text-left iwh-group iwh-flex iwh-flex-col" type="button">
+      <button id="scrollBtn1" class="iwh-text-left iwh-group iwh-flex iwh-flex-col" type="button" data-aos="fade-up"
+        data-aos-duration="1000">
         <picture
           class="iwh-overflow-hidden iwh-block iwh-w-full xl:iwh-max-h-[200px] lg:iwh-max-h-[155px] md:iwh-max-h-[195px] iwh-max-h-fit iwh-h-full">
           <img
@@ -51,7 +54,8 @@
             Couture O’Clock限定腕錶系列</p>
         </div>
       </button>
-      <button id="scrollBtn2" class="iwh-text-left iwh-group iwh-flex iwh-flex-col" type="button">
+      <button id="scrollBtn2" class="iwh-text-left iwh-group iwh-flex iwh-flex-col" type="button" data-aos="fade-up"
+        data-aos-duration="1000">
         <picture
           class="iwh-overflow-hidden iwh-block iwh-w-full xl:iwh-max-h-[200px] lg:iwh-max-h-[155px] md:iwh-max-h-[195px] iwh-max-h-fit iwh-h-full">
           <img
@@ -67,7 +71,8 @@
             進入香奈兒高級訂製服的時間世界</p>
         </div>
       </button>
-      <button id="scrollBtn3" class="iwh-text-left iwh-group iwh-flex iwh-flex-col" type="button">
+      <button id="scrollBtn3" class="iwh-text-left iwh-group iwh-flex iwh-flex-col" type="button" data-aos="fade-up"
+        data-aos-duration="1000">
         <picture
           class="iwh-overflow-hidden iwh-block iwh-w-full xl:iwh-max-h-[200px] lg:iwh-max-h-[155px] md:iwh-max-h-[195px] iwh-max-h-fit iwh-h-full">
           <img
@@ -83,7 +88,8 @@
             雄獅護持的千變時計　香奈兒The Time of Lion系列</p>
         </div>
       </button>
-      <button id="scrollBtn4" class="iwh-text-left iwh-group iwh-flex iwh-flex-col" type="button">
+      <button id="scrollBtn4" class="iwh-text-left iwh-group iwh-flex iwh-flex-col" type="button" data-aos="fade-up"
+        data-aos-duration="1000">
         <picture
           class="iwh-overflow-hidden iwh-block iwh-w-full xl:iwh-max-h-[200px] lg:iwh-max-h-[155px] md:iwh-max-h-[195px] iwh-max-h-fit iwh-h-full">
           <img
@@ -104,14 +110,16 @@
 
   <!-- section 3 -->
   <section id="section3" class="lg:iwh-py-[100px] iwh-py-[72px] lg:iwh-px-8 md:iwh-px-24 iwh-px-6">
-    <div class="iwh-flex iwh-flex-col iwh-justify-center iwh-items-center md:iwh-space-y-4 iwh-space-y-2">
+    <div class="iwh-flex iwh-flex-col iwh-justify-center iwh-items-center md:iwh-space-y-4 iwh-space-y-2"
+      data-aos="fade-up" data-aos-duration="1000">
       <p class="iwh-bg-black iwh-text-white md:iwh-text-lg iwh-text-[13px] iwh-font-medium iwh-px-4 iwh-py-2">
         香奈兒年度封面故事特輯</p>
       <h2 class="iwh-text-black md:iwh-text-4xl iwh-text-2xl iwh-font-medium iwh-text-center">高訂精神譜寫時光<br><span
           class="iwh-font-bold">Couture O’Clock</span>限定腕錶系列</h2>
     </div>
     <div
-      class="iwh-max-w-screen-xl iwh-mx-auto md:iwh-space-y-12 iwh-space-y-4 iwh-flex lg:iwh-flex-row iwh-flex-col lg:iwh-space-x-12 lg:iwh-space-y-0 iwh-group lg:iwh-mt-12 md:iwh-mt-8 iwh-mt-6">
+      class="iwh-max-w-screen-xl iwh-mx-auto md:iwh-space-y-12 iwh-space-y-4 iwh-flex lg:iwh-flex-row iwh-flex-col lg:iwh-space-x-12 lg:iwh-space-y-0 iwh-group lg:iwh-mt-12 md:iwh-mt-8 iwh-mt-6"
+      data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
       <picture
         class="iwh-overflow-hidden iwh-block iwh-w-full xl:iwh-max-h-[450px] lg:iwh-max-h-[350px] md:iwh-max-h-[365px] iwh-max-h-fit iwh-h-full xl:iwh-basis-[675px] lg:iwh-basis-[550px]">
         <img
@@ -132,13 +140,15 @@
 
   <!-- section 4 -->
   <section id="section4" class="lg:iwh-pb-[100px] iwh-pb-[72px] lg:iwh-px-8 md:iwh-px-24 iwh-px-6">
-    <div class="iwh-flex iwh-flex-col iwh-justify-center iwh-items-center md:iwh-space-y-4 iwh-space-y-2">
+    <div class="iwh-flex iwh-flex-col iwh-justify-center iwh-items-center md:iwh-space-y-4 iwh-space-y-2"
+      data-aos="fade-up" data-aos-duration="1000">
       <p class="iwh-bg-black iwh-text-white md:iwh-text-lg iwh-text-[13px] iwh-font-medium iwh-px-4 iwh-py-2">
         香奈兒年度封面故事特輯</p>
       <h2 class="iwh-text-black md:iwh-text-4xl iwh-text-2xl iwh-font-medium iwh-text-center">進入香奈兒高級訂製服的時間世界</h2>
     </div>
     <div
-      class="iwh-max-w-screen-xl iwh-mx-auto iwh-flex lg:iwh-flex-row iwh-flex-col-reverse lg:iwh-space-x-12 iwh-group lg:iwh-mt-12 md:iwh-mt-8 iwh-mt-6">
+      class="iwh-max-w-screen-xl iwh-mx-auto iwh-flex lg:iwh-flex-row iwh-flex-col-reverse lg:iwh-space-x-12 iwh-group lg:iwh-mt-12 md:iwh-mt-8 iwh-mt-6"
+      data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
       <a class="xl:iwh-py-14 iwh-flex-1 iwh-flex iwh-flex-col iwh-justify-center lg:iwh-mt-0 md:iwh-mt-12 iwh-mt-4"
         href="https://www.iwatchome.net/article/theme/240016727" target="_blank" rel="noreferrer noopener">
         <p class="iwh-text-black iwh-font-medium iwh-text-2xl group-hover:iwh-underline group-hover:underline-under">
@@ -183,13 +193,16 @@
     <div
       class="iwh-max-w-screen-xl iwh-mx-auto md:iwh-space-y-8 iwh-space-y-4 iwh-flex lg:iwh-flex-row iwh-flex-col lg:iwh-space-x-16 lg:iwh-space-y-0 iwh-group">
       <div class="iwh-flex lg:iwh-flex-row iwh-flex-col xl:iwh-basis-[600px] lg:iwh-basis-[500px]">
-        <div class="lg:iwh-hidden iwh-flex iwh-flex-col iwh-items-center md:iwh-space-y-4 iwh-space-y-2">
+        <!-- MB -->
+        <div class="lg:iwh-hidden iwh-flex iwh-flex-col iwh-items-center md:iwh-space-y-4 iwh-space-y-2"
+          data-aos="fade-up" data-aos-duration="1000">
           <p class="iwh-bg-black iwh-text-white md:iwh-text-lg iwh-text-[13px] iwh-font-medium iwh-px-4 iwh-py-2">
             香奈兒年度封面故事特輯</p>
           <h2 class="iwh-text-black md:iwh-text-4xl iwh-text-2xl iwh-font-medium iwh-text-center">雄獅護持的千變時計</h2>
         </div>
         <div
-          class="lg:iwh-block iwh-flex md:iwh-space-x-0 iwh-space-x-4 iwh-relative xl:iwh-max-h-[450px] lg:iwh-max-h-[350px] md:iwh-max-h-[365px] iwh-max-h-fit lg:iwh-mt-[60px] md:iwh-mt-8 iwh-mt-6">
+          class="lg:iwh-block iwh-flex md:iwh-space-x-0 iwh-space-x-4 iwh-relative xl:iwh-max-h-[450px] lg:iwh-max-h-[350px] md:iwh-max-h-[365px] iwh-max-h-fit lg:iwh-mt-[60px] md:iwh-mt-8 iwh-mt-6"
+          data-aos="fade-up" data-aos-duration="1000">
           <picture
             class="iwh-overflow-hidden iwh-block iwh-w-full xl:iwh-max-h-[450px] lg:iwh-max-h-[350px] md:iwh-max-h-[365px] iwh-max-h-fit iwh-h-full">
             <img
@@ -205,13 +218,17 @@
         </div>
       </div>
       <div class="iwh-flex-1 iwh-flex iwh-flex-col xl:iwh-pr-[77px]">
-        <div class="lg:iwh-flex iwh-hidden iwh-flex-col iwh-items-start md:iwh-space-y-4 iwh-space-y-2">
+        <!-- PC -->
+        <div class="lg:iwh-flex iwh-hidden iwh-flex-col iwh-items-start md:iwh-space-y-4 iwh-space-y-2"
+          data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
           <p class="iwh-bg-black iwh-text-white md:iwh-text-lg iwh-text-[13px] iwh-font-medium iwh-px-4 iwh-py-2">
             香奈兒年度封面故事特輯</p>
           <h2 class="iwh-text-black md:iwh-text-4xl iwh-text-2xl iwh-font-medium iwh-text-center">雄獅護持的千變時計</h2>
         </div>
+        <!-- PC & MB -->
         <a class="iwh-flex iwh-flex-col iwh-justify-center lg:iwh-mt-12"
-          href="https://www.iwatchome.net/article/theme/240016728" target="_blank" rel="noreferrer noopener">
+          href="https://www.iwatchome.net/article/theme/240016728" target="_blank" rel="noreferrer noopener"
+          data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
           <p
             class="iwh-text-black iwh-font-medium md:iwh-text-2xl iwh-text-lg group-hover:iwh-underline group-hover:underline-under">
             香奈兒
@@ -231,13 +248,17 @@
     <div
       class="iwh-max-w-screen-xl iwh-mx-auto iwh-flex lg:iwh-flex-row iwh-flex-col-reverse lg:iwh-space-x-16 lg:iwh-space-y-0 iwh-group">
       <div class="iwh-flex-1 iwh-flex iwh-flex-col xl:iwh-pl-[77px] lg:iwh-mt-0 md:iwh-mt-8 iwh-mt-4">
-        <div class="lg:iwh-flex iwh-hidden iwh-flex-col iwh-items-start md:iwh-space-y-4 iwh-space-y-2">
+        <!-- PC -->
+        <div class="lg:iwh-flex iwh-hidden iwh-flex-col iwh-items-start md:iwh-space-y-4 iwh-space-y-2"
+          data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
           <p class="iwh-bg-black iwh-text-white md:iwh-text-lg iwh-text-[13px] iwh-font-medium iwh-px-4 iwh-py-2">
             香奈兒年度封面故事特輯</p>
           <h2 class="iwh-text-black md:iwh-text-4xl iwh-text-2xl iwh-font-medium iwh-text-center">掀起腕上的粉紅狂潮</h2>
         </div>
+        <!-- PC & MB -->
         <a class="iwh-flex iwh-flex-col iwh-justify-center lg:iwh-mt-12"
-          href="https://www.iwatchome.net/article/theme/240016729" target="_blank" rel="noreferrer noopener">
+          href="https://www.iwatchome.net/article/theme/240016729" target="_blank" rel="noreferrer noopener"
+          data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
           <p
             class="iwh-text-black iwh-font-medium md:iwh-text-2xl iwh-text-lg group-hover:iwh-underline group-hover:underline-under">
             香奈兒
@@ -249,13 +270,16 @@
         </a>
       </div>
       <div class="iwh-flex lg:iwh-flex-row iwh-flex-col xl:iwh-basis-[600px] lg:iwh-basis-[500px]">
-        <div class="lg:iwh-hidden iwh-flex iwh-flex-col iwh-items-center md:iwh-space-y-4 iwh-space-y-2">
+        <!-- MB -->
+        <div class="lg:iwh-hidden iwh-flex iwh-flex-col iwh-items-center md:iwh-space-y-4 iwh-space-y-2"
+          data-aos="fade-up" data-aos-duration="1000">
           <p class="iwh-bg-black iwh-text-white md:iwh-text-lg iwh-text-[13px] iwh-font-medium iwh-px-4 iwh-py-2">
             香奈兒年度封面故事特輯</p>
           <h2 class="iwh-text-black md:iwh-text-4xl iwh-text-2xl iwh-font-medium iwh-text-center">掀起腕上的粉紅狂潮</h2>
         </div>
         <div
-          class="lg:iwh-block iwh-flex md:iwh-space-x-0 iwh-space-x-4 iwh-relative xl:iwh-max-h-[450px] lg:iwh-max-h-[350px] md:iwh-max-h-[190px] iwh-max-h-fit lg:iwh-mt-0 md:iwh-mt-8 iwh-mt-6">
+          class="lg:iwh-block iwh-flex md:iwh-space-x-0 iwh-space-x-4 iwh-relative xl:iwh-max-h-[450px] lg:iwh-max-h-[350px] md:iwh-max-h-[190px] iwh-max-h-fit lg:iwh-mt-0 md:iwh-mt-8 iwh-mt-6"
+          data-aos="fade-up" data-aos-duration="1000">
           <picture
             class="iwh-overflow-hidden iwh-block iwh-w-full xl:iwh-max-h-[450px] lg:iwh-max-h-[350px] md:iwh-max-h-[190px] iwh-max-h-fit iwh-h-full">
             <img
@@ -275,7 +299,8 @@
 
   <!-- section 8 -->
   <section class="iwh-bg-gray-100 lg:iwh-py-[100px] iwh-py-[72px] lg:iwh-px-8 md:iwh-px-24 iwh-px-6">
-    <div class="iwh-flex iwh-flex-col iwh-justify-center iwh-items-center md:iwh-space-y-4 iwh-space-y-2">
+    <div class="iwh-flex iwh-flex-col iwh-justify-center iwh-items-center md:iwh-space-y-4 iwh-space-y-2"
+      data-aos="fade-up" data-aos-duration="1000">
       <p class="iwh-bg-black iwh-text-white md:iwh-text-lg iwh-text-[13px] iwh-font-medium iwh-px-4 iwh-py-2">
         香奈兒
         <span class="iwh-font-bold">2024</span>年度新品
@@ -293,7 +318,8 @@
       </a>
     </div>
     <div
-      class="iwh-max-w-screen-xl iwh-mx-auto iwh-space-y-6 iwh-flex md:iwh-flex-row iwh-flex-col lg:iwh-mt-12 md:iwh-mt-8 iwh-mt-6">
+      class="iwh-max-w-screen-xl iwh-mx-auto iwh-space-y-6 iwh-flex md:iwh-flex-row iwh-flex-col lg:iwh-mt-12 md:iwh-mt-8 iwh-mt-6"
+      data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
       <picture class="iwh-overflow-hidden iwh-block iwh-w-full md:iwh-hidden">
         <img class="iwh-object-cover iwh-object-center iwh-w-full iwh-h-auto iwh-duration-1000 iwh-ease-zoom"
           src="./images/08/1.jpg" alt="">
@@ -311,7 +337,8 @@
 
   <!-- section 9 -->
   <section class="lg:iwh-py-[100px] iwh-py-[72px] lg:iwh-px-8 md:iwh-px-24 iwh-px-6 iwh-bg-black">
-    <div class="iwh-flex iwh-flex-col iwh-justify-center iwh-items-center md:iwh-space-y-4 iwh-space-y-2">
+    <div class="iwh-flex iwh-flex-col iwh-justify-center iwh-items-center md:iwh-space-y-4 iwh-space-y-2"
+      data-aos="fade-up" data-aos-duration="1000">
       <p class="iwh-bg-neutral-600 iwh-text-white md:iwh-text-lg iwh-text-[13px] iwh-font-medium iwh-px-4 iwh-py-2">
         香奈兒<span class="iwh-font-bold">2024</span>年度新品</p>
       <h2 class="iwh-text-white md:iwh-text-4xl iwh-text-2xl iwh-font-medium iwh-text-center">以裁縫工藝於方圓之間吟詠高訂之詩
@@ -320,7 +347,8 @@
       </h2>
     </div>
     <div
-      class="iwh-max-w-screen-xl iwh-mx-auto iwh-flex lg:iwh-flex-row iwh-flex-col-reverse lg:iwh-space-x-12 iwh-group lg:iwh-mt-12 md:iwh-mt-8 iwh-mt-6">
+      class="iwh-max-w-screen-xl iwh-mx-auto iwh-flex lg:iwh-flex-row iwh-flex-col-reverse lg:iwh-space-x-12 iwh-group lg:iwh-mt-12 md:iwh-mt-8 iwh-mt-6"
+      data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
       <a class="xl:iwh-py-14 iwh-flex-1 iwh-flex iwh-flex-col iwh-justify-center lg:iwh-mt-0 md:iwh-mt-12 iwh-mt-4"
         href="https://www.iwatchome.net/article/theme/240016805" target="_blank" rel="noreferrer noopener">
         <p
@@ -344,7 +372,8 @@
 
   <!-- section 10 -->
   <section class="lg:iwh-pb-[100px] iwh-pb-[72px] lg:iwh-px-8 md:iwh-px-24 iwh-px-6 iwh-bg-black">
-    <div class="iwh-flex iwh-flex-col iwh-justify-center iwh-items-center md:iwh-space-y-4 iwh-space-y-2">
+    <div class="iwh-flex iwh-flex-col iwh-justify-center iwh-items-center md:iwh-space-y-4 iwh-space-y-2"
+      data-aos="fade-up" data-aos-duration="1000">
       <p class="iwh-bg-neutral-600 iwh-text-white md:iwh-text-lg iwh-text-[13px] iwh-font-medium iwh-px-4 iwh-py-2">
         香奈兒
         <span class="iwh-font-bold">2024</span>年度新品
@@ -352,7 +381,8 @@
       <h2 class="iwh-text-white md:iwh-text-4xl iwh-text-2xl iwh-font-medium iwh-text-center">當粉紅成為最有態度的自我宣告</h2>
     </div>
     <div
-      class="iwh-max-w-screen-xl iwh-mx-auto md:iwh-space-y-8 iwh-space-y-4 iwh-flex lg:iwh-flex-row iwh-flex-col lg:iwh-space-x-12 lg:iwh-space-y-0 iwh-group lg:iwh-mt-12 md:iwh-mt-8 iwh-mt-6">
+      class="iwh-max-w-screen-xl iwh-mx-auto md:iwh-space-y-8 iwh-space-y-4 iwh-flex lg:iwh-flex-row iwh-flex-col lg:iwh-space-x-12 lg:iwh-space-y-0 iwh-group lg:iwh-mt-12 md:iwh-mt-8 iwh-mt-6"
+      data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
       <div
         class="iwh-w-full xl:iwh-max-h-[450px] lg:iwh-max-h-[350px] md:iwh-max-h-[365px] iwh-max-h-fit iwh-h-full xl:iwh-basis-[675px] lg:iwh-basis-[550px] iwh-relative before:lg:iwh-block before:iwh-hidden before:iwh-absolute before:-iwh-right-6 before:-iwh-bottom-6 before:iwh-w-full before:iwh-h-full before:iwh-bg-[#343434]">
         <picture
@@ -378,7 +408,8 @@
 
   <!-- section 11 -->
   <section class="lg:iwh-pb-[100px] iwh-pb-[72px] lg:iwh-px-8 md:iwh-px-24 iwh-px-6 iwh-bg-black">
-    <div class="iwh-flex iwh-flex-col iwh-justify-center iwh-items-center md:iwh-space-y-4 iwh-space-y-2">
+    <div class="iwh-flex iwh-flex-col iwh-justify-center iwh-items-center md:iwh-space-y-4 iwh-space-y-2"
+      data-aos="fade-up" data-aos-duration="1000">
       <p class="iwh-bg-neutral-600 iwh-text-white md:iwh-text-lg iwh-text-[13px] iwh-font-medium iwh-px-4 iwh-py-2">
         香奈兒
         <span class="iwh-font-bold">2024</span>年度新品
@@ -386,7 +417,8 @@
       <h2 class="iwh-text-white md:iwh-text-4xl iwh-text-2xl iwh-font-medium iwh-text-center">譜寫剛柔並濟的粉紅魅力</h2>
     </div>
     <div
-      class="iwh-max-w-screen-xl iwh-mx-auto iwh-flex lg:iwh-flex-row iwh-flex-col-reverse lg:iwh-space-x-12 iwh-group lg:iwh-mt-12 md:iwh-mt-8 iwh-mt-6">
+      class="iwh-max-w-screen-xl iwh-mx-auto iwh-flex lg:iwh-flex-row iwh-flex-col-reverse lg:iwh-space-x-12 iwh-group lg:iwh-mt-12 md:iwh-mt-8 iwh-mt-6"
+      data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
       <a class="xl:iwh-py-14 iwh-flex-1 iwh-flex iwh-flex-col iwh-justify-center lg:iwh-mt-0 md:iwh-mt-12 iwh-mt-4"
         href="https://www.iwatchome.net/article/theme/240016717" target="_blank" rel="noreferrer noopener">
         <p

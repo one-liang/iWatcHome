@@ -896,16 +896,16 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.\!iwh-opacity-0 {
+  opacity: 0 !important;
+}
+
 .iwh-opacity-0 {
   opacity: 0;
 }
 
 .iwh-opacity-100 {
   opacity: 1;
-}
-
-.\!iwh-opacity-0 {
-  opacity: 0 !important;
 }
 
 .iwh-duration-1000 {
