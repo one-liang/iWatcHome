@@ -1003,13 +1003,6 @@ video {
   text-underline-position: under;
 }
 
-@media (min-width: 640px) {
-  .sm\:iwh-text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-}
-
 @media (min-width: 768px) {
   .md\:iwh-mt-12 {
     margin-top: 3rem;
