@@ -891,10 +891,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.\!iwh-opacity-0 {
-  opacity: 0 !important;
-}
-
 .iwh-duration-1000 {
   transition-duration: 1000ms;
 }
